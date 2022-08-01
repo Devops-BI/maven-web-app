@@ -15,7 +15,7 @@
 	We offer interview preparations and job assitance,
 	The shout of the King is in our midst. His name is JESUS.  HE IS OUR SUCCESS ACCESS KEY. Jesus is Lord</h2>
 </br>
-<p> The jobs will soon start coming in</p>
+<p> The jobs will soon start coming in by the grace of God</p>
 <hr>
 <div style="text-align: center;">
 	<span>
