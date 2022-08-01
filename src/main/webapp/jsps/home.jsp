@@ -16,6 +16,7 @@
 	The shout of the King is in our midst. His name is JESUS.  HE IS OUR SUCCESS ACCESS KEY. Jesus is Lord</h2>
 </br>
 <p> The jobs will soon start coming in by the grace of God</p>
+<p>If i can see this then the 5 minute poll was successfull</p>
 <hr>
 <div style="text-align: center;">
 	<span>
