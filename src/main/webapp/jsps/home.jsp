@@ -14,6 +14,7 @@
 	ACADA Learning is a an ideal online training  platform for DevOps and Cloud Engineers. 
 	We offer interview preparations and job assitance,
 	The shout of the King is in our midst. His name is JESUS.  HE IS OUR SUCCESS ACCESS KEY. Jesus is Lord</h2>
+<h3 align="center"> Oh the overwhelming never ending reckless love of God</h3>
 </br>
 <p> The jobs will soon start coming in by the grace of God</p>
 <p>If i can see this then the 5 minute poll was successfull</p>
