@@ -1,0 +1,34 @@
+node ("")
+{
+    def maven = tool name: "maven-3.8.6"
+    stage ("1.clone"){
+        sh "echo start git clone"
+        git "https://github.com/Devops-BI/maven-web-app.git"
+    }
+    stage ("2.clean"){
+        sh "echo start maven clean"
+        sh "${maven}/bin/mvn clean"
+    }
+    stage ("3.package"){
+        sh "echo start maven package"
+        sh "${maven}/bin/mvn package"
+    }
+    stage ("4.CodeQuality"){
+        sh "echo start maven quality test"
+        sh "${maven}/bin/mvn sonar:sonar"
+    }
+    stage ("5.deployUAT"){
+        sh "echo deploying to application server"
+        deploy adapters: [tomcat9(credentialsId: 'tomcat-red', path: '', url: 'http://3.98.96.45:8080/')], contextPath: null, war: 'target/*.war'
+    }
+    stage ("6.approval"){
+        sh "echo ready for approval"
+        timeout(time:5, unit:'DAYS'){
+        input message: "UAT is done kindly approve"
+        }
+    }
+    stage ("7.deployPROD"){
+        sh "echo deploying to application server"
+        deploy adapters: [tomcat9(credentialsId: 'tomcat-red', path: '', url: 'http://3.98.96.45:8080/')], contextPath: null, war: 'target/*.war'
+    }
+}
