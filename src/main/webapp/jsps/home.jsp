@@ -30,7 +30,7 @@
   <link href="css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-    Theme Name: BizPage
+    Theme Name: AcadaLearning
     Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
     Author: BootstrapMade.com
     License: https://bootstrapmade.com/license/
@@ -58,12 +58,12 @@
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
+          <li class="menu-has-children"><a href="">Payment Packages</a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
+              <li><a href="#">Option 1</a></li>
+              <li><a href="#">Option 3</a></li>
+              <li><a href="#">Option 4</a></li>
+              <li><a href="#">Option 5</a></li>
             </ul>
           </li>
           <li><a href="#contact">Contact</a></li>
@@ -86,8 +86,8 @@
           <div class="carousel-item active" style="background-image: url('img/intro-carousel/1.jpg');">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>We are professional</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h2>We don't teach theory, we are hands on!</h2>
+                <p>Devops is a budding and rewarding career, at Acada Learning, we job train you to be prepared for software development for the modern day. At the end, we will all be hired</p>
                 <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
               </div>
             </div>
@@ -160,20 +160,20 @@
 
           <div class="col-lg-4 box">
             <i class="ion-ios-bookmarks-outline"></i>
-            <h4 class="title"><a href="">Lorem Ipsum Delino</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <h4 class="title"><a href="">Devops end to end</a></h4>
+            <p class="description">We take you through the difference between monolithic and microservices</p>
           </div>
 
           <div class="col-lg-4 box box-bg">
             <i class="ion-ios-stopwatch-outline"></i>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <h4 class="title"><a href="">Jenkins</a></h4>
+            <p class="description">A powerful integration tool for CI/CD</p>
           </div>
 
           <div class="col-lg-4 box">
             <i class="ion-ios-heart-outline"></i>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <h4 class="title"><a href="">Docker</a></h4>
+            <p class="description">Docker is the future of serveless technology, we also teach you kubernetes, a container ochestraion tool</p>
           </div>
 
         </div>
@@ -188,7 +188,7 @@
 
         <header class="section-header">
           <h3>About Us</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Acada Learning is a group of young and vibrant Devops specialist who want to create a community of devops engineers in the African American community</p>
         </header>
 
         <div class="row about-cols">
